@@ -24,4 +24,4 @@ jobs:
         with:
           context: ./gotty-ubuntu/
           push: true
-          tags: ghcr.io/cosmicfusion/gotty-ubuntu:main
+          tags: ghcr.io/pikaos-linux/gotty-ubuntu:main
