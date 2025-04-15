@@ -7,6 +7,4 @@ RUN apt-get install -y wget curl vim sudo systemd ifupdown rsyslog logrotate les
 RUN wget -qO gotty.tar.gz https://github.com/yudai/gotty/releases/latest/download/gotty_linux_amd64.tar.gz
 RUN tar xf gotty.tar.gz -C /usr/local/bin
 
-RUN echo 'root:root' | chpasswd
-
 WORKDIR /tmp
