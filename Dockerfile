@@ -11,7 +11,7 @@ RUN wget -qO gotty.tar.gz https://github.com/yudai/gotty/releases/latest/downloa
 
 # Create a non-root user
 RUN useradd -m user && \
-    echo "user:password" | chpasswd && \
+    echo "user:root" | chpasswd && \
     usermod -aG sudo user
 
 # Switch to the user
